@@ -1,0 +1,24 @@
+{
+  "name": "context-connect",
+  "version": "1.0.0",
+  "repository": "https://github.com/foxdonut/context-connect",
+  "description": "Library for Concatenative Programming in JavaScript",
+  "main": "./src/context-connect.js",
+  "scripts": {
+    "test": "mocha `find test -name '*-tests.js'`",
+    "test:watch": "mocha -w `find test -name '*-tests.js'`"
+  },
+  "author": "foxdonut",
+  "license": "MIT",
+  "keywords": [],
+  "bugs": {
+    "url": "https://github.com/foxdonut/context-connect/issues"
+  },
+  "dependencies": {
+    "lodash": "*"
+  },
+  "devDependencies": {
+    "chai": "^3.0.0",
+    "mocha": "^2.2.5"
+  }
+}

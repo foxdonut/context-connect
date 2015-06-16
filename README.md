@@ -1,2 +1,5 @@
 # context-connect
-Helper to connect a context to composed functions
+
+Helper to connect a context to composed functions.
+
+
