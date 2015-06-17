@@ -61,7 +61,8 @@ var ctx = function() {
 
   return function(context) {
     var params = getParams(context, argsObject.params);
-    return getResult(argsObject.functions[0].apply(null, params), argsObject.results, context);
+    var fnResult = argsObject.functions[0].apply(null, params);
+    return getResult(fnResult, argsObject.results, context);
   };
 };
 
