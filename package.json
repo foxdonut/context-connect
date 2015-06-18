@@ -1,6 +1,6 @@
 {
   "name": "context-connect",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "repository": "https://github.com/foxdonut/context-connect",
   "description": "Helper for function composition with context",
   "main": "./src/context-connect.js",
