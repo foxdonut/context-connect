@@ -2,7 +2,7 @@
   "name": "context-connect",
   "version": "1.0.0",
   "repository": "https://github.com/foxdonut/context-connect",
-  "description": "Library for Concatenative Programming in JavaScript",
+  "description": "Helper for function composition with context",
   "main": "./src/context-connect.js",
   "scripts": {
     "test": "mocha `find test -name '*-tests.js'`",
